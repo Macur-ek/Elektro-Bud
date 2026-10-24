@@ -1,0 +1,13 @@
+{
+  "name": "elektro-bud-magazyn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demonstracyjny moduł magazynowy Elektro-Bud napisany w TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

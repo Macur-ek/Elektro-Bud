@@ -1,0 +1,30 @@
+:root {
+  color: #17243a;
+  background: #f4f7fb;
+  --navy: #12233f;
+  --blue: #1769e0;
+  --blue-dark: #1054b7;
+  --muted: #6b7890;
+  --border: #e1e7f0;
+  --green: #16794b;
+  --red: #b42318;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+.topbar {
+  display: flex; align-items: center; gap: 14px; padding: 10px max(24px, calc((100% - 1180px) / 2));
+  background: var(--navy); color: white;
+}
+.brand-mark {
+  display: grid; place-items: center; width: 46px; height: 46px; border-radius: 13px;
+  background: #2478ed; font-weight: 800; letter-spacing: -1px;
+}
+
+.page { max-width: 1180px; margin: 0 auto; padding: 38px 24px 20px; }
+.intro { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin-bottom: 26px; }
+
+.stat-hint { font-size: 11px; }
+.stat-warning strong { color: #b76a08; }
+
+.panel-heading { display: flex; justify-content: space-between; align-items: center; gap: 18px; padding: 22px 24px; }
+
